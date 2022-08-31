@@ -1,0 +1,43 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.rps {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 50px;
+  font-family: 'Ubuntu', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: lightblue;
+}
+
+p {
+  font-size: 2rem;
+  color: lightblue;
+  font-family: 'Ubuntu', cursive;
+}
+
+img {
+  width: 80%;
+
+}
+.img2{
+  transform: scaleX(-1);
+}
+footer {
+  margin-top: 20%;
+  color: lightgray;
+  text-align: center;
+  font-family: 'Ubuntu', cursive;
+}

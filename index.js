@@ -18,18 +18,18 @@ image2.setAttribute("src", randomImageSource);
 
 //player1 win
 if (randomNumber1 === 1 && randomNumber2 === 2){
-    document.querySelector("h1").innerHTML = "Player 1 Wins 🎉";
+    document.querySelector("h2").innerHTML = "Player 1 Wins 🎉";
 } else if(randomNumber1 === 1 && randomNumber2 === 3){
-    document.querySelector("h1").innerHTML = "Player 2 Wins ✨";
+    document.querySelector("h2").innerHTML = "Player 2 Wins ✨";
 } else if(randomNumber1 === 2 && randomNumber2 === 1){
-    document.querySelector("h1").innerHTML = "Player 2 Wins ✨";
+    document.querySelector("h2").innerHTML = "Player 2 Wins ✨";
 } else if(randomNumber1 === 2 && randomNumber2 === 3){
-    document.querySelector("h1").innerHTML = "Player 1 Wins 🎉";
+    document.querySelector("h2").innerHTML = "Player 1 Wins 🎉";
 } else if (randomNumber1 === 3 && randomNumber2 === 1){
-    document.querySelector("h1").innerHTML = "Player 1 Wins 🎉";
+    document.querySelector("h2").innerHTML = "Player 1 Wins 🎉";
 } else if (randomNumber1 === 3 && randomNumber2 === 2){
-    document.querySelector("h1").innerHTML = "Player 2 Wins ✨";
+    document.querySelector("h2").innerHTML = "Player 2 Wins ✨";
 }
 else{
-    document.querySelector("h1").innerHTML = "Draw 🙌";
+    document.querySelector("h2").innerHTML = "Draw 🙌";
 }
